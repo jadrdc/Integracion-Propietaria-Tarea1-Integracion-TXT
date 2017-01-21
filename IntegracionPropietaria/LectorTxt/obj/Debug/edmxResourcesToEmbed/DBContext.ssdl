@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DbTssModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="EmployeeInformation">
+    <Key>
+      <PropertyRef Name="IdPk" />
+    </Key>
+    <Property Name="EntryType" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="IdType" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="Id" Type="varchar(max)" Nullable="false" />
+    <Property Name="IdPk" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FullName" Type="varchar(max)" Nullable="false" />
+    <Property Name="Currency" Type="varchar(max)" Nullable="false" />
+    <Property Name="Amount" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FooterInformation">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="EntryType" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="TotalEmployees" Type="varchar(max)" Nullable="false" />
+    <Property Name="TotalAmount" Type="varchar(max)" Nullable="false" />
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HeaderInformation">
+    <Key>
+      <PropertyRef Name="IdPk" />
+    </Key>
+    <Property Name="EntryType" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="IdType" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="Id" Type="varchar" MaxLength="11" Nullable="false" />
+    <Property Name="DateCreation" Type="date" Nullable="false" />
+    <Property Name="IdPk" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="DbTssModelStoreContainer">
+    <EntitySet Name="EmployeeInformation" EntityType="Self.EmployeeInformation" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FooterInformation" EntityType="Self.FooterInformation" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HeaderInformation" EntityType="Self.HeaderInformation" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

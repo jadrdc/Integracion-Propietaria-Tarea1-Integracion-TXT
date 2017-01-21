@@ -1,0 +1,13 @@
+c:\users\lenovo\documents\visual studio 2013\Projects\IntegracionPropietaria\LectorTxt\bin\Debug\DbTss.mdf
+c:\users\lenovo\documents\visual studio 2013\Projects\IntegracionPropietaria\LectorTxt\bin\Debug\DbTss_log.ldf
+c:\users\lenovo\documents\visual studio 2013\Projects\IntegracionPropietaria\LectorTxt\bin\Debug\EntityFramework.dll
+c:\users\lenovo\documents\visual studio 2013\Projects\IntegracionPropietaria\LectorTxt\bin\Debug\EntityFramework.xml
+c:\users\lenovo\documents\visual studio 2013\Projects\IntegracionPropietaria\LectorTxt\obj\Debug\LectorTxt.Form1.resources
+c:\users\lenovo\documents\visual studio 2013\Projects\IntegracionPropietaria\LectorTxt\obj\Debug\LectorTxt.Properties.Resources.resources
+c:\users\lenovo\documents\visual studio 2013\Projects\IntegracionPropietaria\LectorTxt\obj\Debug\LectorTxt.csproj.GenerateResource.Cache
+c:\users\lenovo\documents\visual studio 2013\Projects\IntegracionPropietaria\LectorTxt\obj\Debug\LectorTxt.exe
+c:\users\lenovo\documents\visual studio 2013\Projects\IntegracionPropietaria\LectorTxt\obj\Debug\LectorTxt.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2013\Projects\IntegracionPropietaria\LectorTxt\bin\Debug\LectorTxt.exe.config
+C:\Users\LENOVO\Documents\Visual Studio 2013\Projects\IntegracionPropietaria\LectorTxt\bin\Debug\LectorTxt.exe
+C:\Users\LENOVO\Documents\Visual Studio 2013\Projects\IntegracionPropietaria\LectorTxt\bin\Debug\LectorTxt.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2013\Projects\IntegracionPropietaria\LectorTxt\obj\Debug\LectorTxt.csprojResolveAssemblyReference.cache
